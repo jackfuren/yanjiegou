@@ -1,0 +1,41 @@
+/*样式重置*/
+@charset "utf-8";
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select {margin: 0;padding: 0}
+
+a {
+  color: #172c45;
+  text-decoration: none
+}
+
+body {
+  font-size: 0.16rem;
+}
+
+li {
+  list-style: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+/*样式重置结束*/
+/* 基本样式 */
+.zhezhao{position: fixed;top:0;left:0;width: 100%;height:100%;z-index: 99;background-color: rgba(0,0,0,0.5);display: none;}
+.radius{border-radius: 4px;}
+.touming{ background-color: rgba(0,0,0,0.5)}
+.w1200{width: 1200px;margin: auto;}
+.clear{clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+.overflow{overflow: hidden;}
+.block{display: block;}
+.card{box-shadow: 0px 0px 5px #ccc;}
+.hide{display: none;}
+
+
+
+
+
+
+
