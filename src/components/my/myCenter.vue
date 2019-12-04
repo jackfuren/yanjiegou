@@ -45,12 +45,12 @@
       <div class="nav-wl">
         <p>最近物流</p>
         <div class="nav-qs" @click="wuliu()">
-          <div class="nav-qsp" v-for="(imet,index) in shou">
+          <div class="nav-qsp" v-for="(imet,index) in shou" :key="index">
             <img
               :src=imet.goods[0].headimg
               alt="">
             <div class="nav-right">
-              <van-checkbox checked-color="#EF0600"disabled  class="dian" label-position="right" v-model="item"></van-checkbox>
+              <van-checkbox checked-color="#EF0600" disabled  class="dian" label-position="right" v-model="item"></van-checkbox>
               <p class="dsd">您的快件已经发货</p>
             </div>
           </div>
